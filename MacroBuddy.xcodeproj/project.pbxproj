@@ -13,6 +13,11 @@
 		E1E75F1129686EE00040D50E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1E75F1029686EE00040D50E /* Preview Assets.xcassets */; };
 		E1E75F1829686F220040D50E /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E75F1729686F220040D50E /* LoginView.swift */; };
 		E1E75F1C296878720040D50E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E75F1B296878720040D50E /* Extensions.swift */; };
+		E1E75F1E296B0DE10040D50E /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E75F1D296B0DE10040D50E /* RegisterView.swift */; };
+		E1E75F20296B0F420040D50E /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E75F1F296B0F420040D50E /* DashboardView.swift */; };
+		E1E75F22296B1E840040D50E /* StatisticalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E75F21296B1E840040D50E /* StatisticalData.swift */; };
+		E1E75F25296B22B20040D50E /* ProgressGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E75F24296B22B20040D50E /* ProgressGraphView.swift */; };
+		E1E75F27296B69AA0040D50E /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E75F26296B69AA0040D50E /* HistoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		E1E75F1029686EE00040D50E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E1E75F1729686F220040D50E /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		E1E75F1B296878720040D50E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		E1E75F1D296B0DE10040D50E /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		E1E75F1F296B0F420040D50E /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		E1E75F21296B1E840040D50E /* StatisticalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticalData.swift; sourceTree = "<group>"; };
+		E1E75F24296B22B20040D50E /* ProgressGraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressGraphView.swift; sourceTree = "<group>"; };
+		E1E75F26296B69AA0040D50E /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +66,18 @@
 		E1E75F0729686EDF0040D50E /* MacroBuddy */ = {
 			isa = PBXGroup;
 			children = (
+				E1E75F23296B1ED50040D50E /* Models */,
 				E1E75F0829686EDF0040D50E /* MacroBuddyApp.swift */,
 				E1E75F0A29686EDF0040D50E /* ContentView.swift */,
 				E1E75F1729686F220040D50E /* LoginView.swift */,
+				E1E75F1F296B0F420040D50E /* DashboardView.swift */,
+				E1E75F1D296B0DE10040D50E /* RegisterView.swift */,
 				E1E75F0C29686EE00040D50E /* Assets.xcassets */,
 				E1E75F0E29686EE00040D50E /* MacroBuddy.entitlements */,
 				E1E75F0F29686EE00040D50E /* Preview Content */,
 				E1E75F1B296878720040D50E /* Extensions.swift */,
+				E1E75F24296B22B20040D50E /* ProgressGraphView.swift */,
+				E1E75F26296B69AA0040D50E /* HistoryView.swift */,
 			);
 			path = MacroBuddy;
 			sourceTree = "<group>";
@@ -73,6 +88,14 @@
 				E1E75F1029686EE00040D50E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E1E75F23296B1ED50040D50E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E1E75F21296B1E840040D50E /* StatisticalData.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,8 +169,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1E75F1829686F220040D50E /* LoginView.swift in Sources */,
+				E1E75F20296B0F420040D50E /* DashboardView.swift in Sources */,
+				E1E75F1E296B0DE10040D50E /* RegisterView.swift in Sources */,
+				E1E75F22296B1E840040D50E /* StatisticalData.swift in Sources */,
+				E1E75F25296B22B20040D50E /* ProgressGraphView.swift in Sources */,
 				E1E75F0B29686EDF0040D50E /* ContentView.swift in Sources */,
 				E1E75F0929686EDF0040D50E /* MacroBuddyApp.swift in Sources */,
+				E1E75F27296B69AA0040D50E /* HistoryView.swift in Sources */,
 				E1E75F1C296878720040D50E /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
